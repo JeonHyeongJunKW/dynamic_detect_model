@@ -20,7 +20,7 @@ class obj_Loss(nn.Module):
         super().__init__()
         self.kernel_size = kernel_size
 
-    def forward(self,image1, image2):
+    def forward(self, image1, image2):
 
         return 0
 

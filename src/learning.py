@@ -89,7 +89,7 @@ def train_model(train_data_names,validation_data_names,gamma,dilation_rate,arg_l
         writter.add_scalar("loss/valid",val_loss,epoch+1)
 
         
-        if (epoch+1)%10 ==0:
+        if (epoch+1)%10 ==0 or epoch ==0:
             #save_model
             model_name = "-arg_batch_size_"+\
                         str(arg_batch_size)+\
