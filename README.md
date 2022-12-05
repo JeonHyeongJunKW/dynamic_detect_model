@@ -14,7 +14,7 @@
 
 
 ### Dataset 구성
-- train : Kitti 데이터셋의 00, 05, 06 sequence
+- train : Kitti[1] 데이터셋의 00, 05, 06 sequence
 - validation : Kitti 데이터셋의 02, 08
 
 ### Loss 구성
@@ -23,6 +23,8 @@
 
 ### 진행사항
 - 22/12/05 : train, validation, model, loss, weight-spatial save 구현
+
+
 [1] A. Geiger, P. Lenz, and R. Urtasun, “Are we ready for autonomous driving?
 The KITTI vision benchmark suite,” in Proc. IEEE Conf. Comput. Vis.
 Pattern Recognit., 2012, pp. 3354–3361.
