@@ -2,3 +2,4 @@ runs/
 spatial_result/
 src/__pycache__/
 model_weight/
+main.pth
