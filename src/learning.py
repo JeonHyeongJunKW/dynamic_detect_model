@@ -75,7 +75,7 @@ arg_batch_size, arg_contrastive_margin,max_epoch,weight_value,bad_neighbor,stabl
         start_time = time.time()
         edge_weight =0
         if epoch>stable_epoch:
-            edge_weight = stable_epoch
+            edge_weight = weight_value
         for idx , (query_images, compare_images, labels) in enumerate(train_dataloader):
             LDOD_model.zero_grad()
             query_images = query_images.to(device)
